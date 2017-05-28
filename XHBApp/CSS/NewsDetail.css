@@ -1,0 +1,12 @@
+<html>
+    <head>
+    <meta name="viewport" content="device-width, initial-scale=1.0,user-scalable=0">
+    </head>
+<meta charset="UTF-8">
+<style>
+    body{font-family:"PingFang-SC";}
+    .titles{width:95%;margin: 20px auto 0;font-size:24px;color:#222C38}/*大标题*/
+    .time_line{width:95%;font-size:12px;color:#9B9B9B;margin: 10px auto 20px;}/*作者字号*/
+p{width:95%;margin: 0 auto 15px;font-size:17px;color:#4A4A4A;text-align: justify;word-wrap:break-word;}/*内容字号*//*内容字号*/
+    img{width:100%;margin: 0 auto;display: block}
+</style>

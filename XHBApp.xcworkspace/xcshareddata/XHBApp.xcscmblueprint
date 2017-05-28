@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "91E248432FAAE7B054D141636652B6ABF3DEA905",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "91E248432FAAE7B054D141636652B6ABF3DEA905" : 9223372036854775807,
+    "48400B662DB509F166C768EC1AF5124C67D98294" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7C27008-7D73-4619-9A99-D478F3A9E421",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "91E248432FAAE7B054D141636652B6ABF3DEA905" : "pme_app_IOS\/",
+    "48400B662DB509F166C768EC1AF5124C67D98294" : "guoxin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XHBApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XHBApp\/XHBApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gitlab.guoxin.bj\/mobile\/guoxin-app-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48400B662DB509F166C768EC1AF5124C67D98294"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gitlab.guoxin.bj\/pme\/pme_app_IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "91E248432FAAE7B054D141636652B6ABF3DEA905"
+    }
+  ]
+}

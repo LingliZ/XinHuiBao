@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XHBVertyPhoneViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uue-ig-vFp">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sue-DY-exs">
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mine_systermSet_vertyPhone" translatesAutoresizingMaskIntoConstraints="NO" id="8I9-B1-Xwt">
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="82" id="2bY-TB-eyH"/>
+                                        <constraint firstAttribute="height" constant="82" id="Bv9-JT-wPh"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="验证手机号码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYL-RH-Evo">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="WPq-0c-nDW"/>
+                                        <constraint firstAttribute="width" constant="110" id="kO1-hm-udn"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DYD-UA-qWF">
+                                    <frame key="frameInset" minX="8" minY="143" width="327" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="375" id="bfb-3h-Rcd"/>
+                                <constraint firstItem="8I9-B1-Xwt" firstAttribute="top" secondItem="sue-DY-exs" secondAttribute="top" constant="30" id="c3n-Kp-3Eg"/>
+                                <constraint firstItem="kYL-RH-Evo" firstAttribute="top" secondItem="8I9-B1-Xwt" secondAttribute="bottom" constant="3" id="c3o-kF-PCc"/>
+                                <constraint firstItem="8I9-B1-Xwt" firstAttribute="centerX" secondItem="sue-DY-exs" secondAttribute="centerX" id="dnm-ex-NXL"/>
+                                <constraint firstItem="kYL-RH-Evo" firstAttribute="centerX" secondItem="sue-DY-exs" secondAttribute="centerX" id="sQX-0e-5Ei"/>
+                                <constraint firstAttribute="height" constant="667" id="vDg-Sl-jts"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sue-DY-exs" secondAttribute="bottom" id="Lg3-QD-wA4"/>
+                        <constraint firstItem="sue-DY-exs" firstAttribute="top" secondItem="uue-ig-vFp" secondAttribute="top" id="Rrk-m6-6FW"/>
+                        <constraint firstItem="sue-DY-exs" firstAttribute="leading" secondItem="uue-ig-vFp" secondAttribute="leading" id="Xqg-xt-Ktk"/>
+                        <constraint firstAttribute="trailing" secondItem="sue-DY-exs" secondAttribute="trailing" id="kpq-za-xGq"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uue-ig-vFp" secondAttribute="bottom" id="A8d-5S-mxT"/>
+                <constraint firstAttribute="trailing" secondItem="uue-ig-vFp" secondAttribute="trailing" id="G6A-fX-pht"/>
+                <constraint firstItem="uue-ig-vFp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dMH-yV-MpM"/>
+                <constraint firstItem="uue-ig-vFp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jBV-jm-mfb"/>
+            </constraints>
+            <point key="canvasLocation" x="77.5" y="121.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mine_systermSet_vertyPhone" width="82" height="82"/>
+    </resources>
+</document>

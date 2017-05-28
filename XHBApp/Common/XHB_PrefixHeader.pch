@@ -1,0 +1,72 @@
+//
+//  XHB_PrefixHeader.pch
+//  XHBApp
+//
+//  Created by WangLinfang on 16/11/2.
+//  Copyright © 2016年 WangLinfang. All rights reserved.
+//
+#ifdef __OBJC__
+
+#ifndef XHB_PrefixHeader_pch
+#define XHB_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "XHBBaseController.h"
+#import "XHBBaseViewController.h"
+/*****************三方库*************************/
+#import "AFNetworking.h"
+// RAC框架
+#import "ReactiveCocoa.h"
+//Masonry布局
+#import "Masonry.h"
+//下拉刷新，上拉加载
+#import "MJRefresh.h"
+#import "KeyboardManager.h"
+//环信
+#import "EaseMob.h"
+//SDWebImage
+#import "UIImageView+WebCache.h"
+// 网络请求工具
+#import "AFNetworking.h"
+#import "GXHttpTool.h"
+
+//环信工具
+#import "GXPushTool.h"
+
+#import "GXFileTool.h"
+#import "XHBConst.h"
+#import "XHBCommon.h"
+#import "XHBUrl.h"
+#import "MJExtension.h"
+#import "GXUserInfoTool.h"
+#import "GXSingInstance.h"
+#import "GXToast.h"
+#import "GXAlertView.h"
+#import "XHBMJRefresh.h"
+
+#import "AppDelegate.h"
+#import "GXTabBarController.h"
+//GrowingIO
+#import "Growing.h"
+
+/******************类别***********************/
+#import "UIButton+Add.h"
+#import "UIColor+Add.h"
+#import "UIImage+Add.h"
+#import "UIView+Add.h"
+#import "UIScrollView+Add.h"
+#import "UIViewController+Add.h"
+#import "UIView+GXLoadingTips.h"
+
+#import "NSString+Add.h"
+
+//自定义键盘点击发送
+#define sendBtnClickNotify @"sendBtnClick"
+
+
+#import "XHBThirdTarget.h"
+
+#endif
+#endif
