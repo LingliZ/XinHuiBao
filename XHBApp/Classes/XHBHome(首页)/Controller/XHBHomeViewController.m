@@ -597,6 +597,7 @@
     }
     if (section == 2) {
 #pragma mark--分析师
+        return nil;
         UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, GXScreenWidth, 50)];
         headView.backgroundColor = [UIColor whiteColor];
         UIView*seperatView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, GXScreenWidth, 8)];
